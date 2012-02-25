@@ -1,7 +1,6 @@
 Add on your deps
 
-<pre><code>
-[ZendFramework]
+<pre><code>[ZendFramework]
     git=http://github.com/andres-montanez/Zend-Framework.git
     version=v1.11.11
     target=/zend-framework
@@ -13,8 +12,7 @@ And then
 ```
 
 And last, register the prefix on autoload.php
-<pre><code>
-$loader->registerPrefixes(array(
+<pre><code>$loader->registerPrefixes(array(
     ...
     'Zend_' => __DIR__.'/../vendor/zend-framework/library',
 ));
