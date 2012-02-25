@@ -14,6 +14,6 @@ And then
 And last, register the prefix on autoload.php
 <pre><code>$loader->registerPrefixes(array(
     ...
-    'Zend_' => __DIR__.'/../vendor/zend-framework/library',
+    'Zend_' => __DIR__.'/../vendor/zend-framework',
 ));
 </code></pre>
